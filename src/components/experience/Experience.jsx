@@ -1,5 +1,7 @@
 import React from "react";
 import "./Experience.css";
+import Frontendcontainer from "./Frontendcontainer";
+import Backendcontainer from "./Backendcontainer";
 import { BsFillPatchCheckFill } from "react-icons/bs";
 
 function Experience() {
@@ -9,87 +11,8 @@ function Experience() {
       <h2>My Experience</h2>
 
       <div className="container experience__container">
-        <div className="experience__frontend">
-          <h3>Frontend Development</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experinced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>JavaScript</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>BootStrap</h4>
-                <small className="text-light">Experinced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Tailwind Css</h4>
-                <small className="text-light">Experinced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>React</h4>
-                <small className="text-light">Experinced</small>
-              </div>
-            </article>
-          </div>
-        </div>
-        {/* End of thr frontend development card */}
-        <div className="experience__backend">
-          <h3>Backend Development</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>MongoDb</h4>
-                <small className="text-light">Experinced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Node.Js</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>MySQL</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>Express.Js</h4>
-                <small className="text-light">Begineer</small>
-              </div>
-            </article>
-          </div>
-        </div>
+        <Frontendcontainer Heading="Frontend Development" />
+        <Backendcontainer Heading="Backend Development" />
       </div>
     </section>
   );

@@ -60,9 +60,9 @@ function Portfolio() {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {images.map((elem) => {
+        {images.map((elem, index) => {
           return (
-            <article className="portfolio__item">
+            <article key={index} className="portfolio__item">
               <div className="portfolio__item-img">
                 <img src={elem.image} alt="portfolio " />
               </div>

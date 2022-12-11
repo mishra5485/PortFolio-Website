@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import Me from "../../assets/me-about.jpg";
-import { FaAward, FaUsers, FaFolder } from "react-icons/fa";
+import Aboutcards from "./Aboutcards";
 
 function About() {
   return (
@@ -17,23 +17,9 @@ function About() {
         </div>
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
-              <FaAward className="about_icon" />
-              <h5>Experience</h5>
-              <small>3+years Experience</small>
-            </article>
-
-            <article className="about__card">
-              <FaUsers className="about_icon" />
-              <h5>Cients</h5>
-              <small>200+ Clients</small>
-            </article>
-
-            <article className="about__card">
-              <FaFolder className="about_icon" />
-              <h5>Projects</h5>
-              <small>10+ Projects</small>
-            </article>
+            <Aboutcards title="Experience" desc="3+years Experience" />
+            <Aboutcards title="Clients" desc="200+ Websites" />
+            <Aboutcards title="Projects" desc="80+ Completed" />
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
