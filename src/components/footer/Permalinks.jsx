@@ -1,9 +1,9 @@
 import React from "react";
 
-const Permalinks = ({ Title }) => {
+const Permalinks = ({ Title, href }) => {
   return (
     <li>
-      <a href="#">{Title}</a>
+      <a href={href}>{Title}</a>
     </li>
   );
 };

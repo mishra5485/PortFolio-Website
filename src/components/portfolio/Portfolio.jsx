@@ -1,55 +1,31 @@
 import React from "react";
 import "./Portfolio.css";
 
-import img1 from "../../assets/portfolio1.jpg";
-import img2 from "../../assets/portfolio2.jpg";
-import img3 from "../../assets/portfolio3.jpg";
-import img4 from "../../assets/portfolio4.jpg";
-import img5 from "../../assets/portfolio5.png";
-import img6 from "../../assets/portfolio6.jpg";
+import img1 from "../../assets/Project-Tesla.png";
+import img2 from "../../assets/Project-Netflix.png";
+import img3 from "../../assets/Project-Yt.png";
 
 const images = [
   {
     id: 1,
     image: img1,
-    title: " Crypto Currency Dashboard & Finiancial Visualition",
-    github: "https://github.com/",
-    demo: "https://google.com/",
+    title: " Tesla Landing Page",
+    github: "https://github.com/mishra5485/Tesla-Clone",
+    demo: "https://tesla-clone9909.netlify.app/",
   },
   {
     id: 2,
     image: img2,
-    title: " Crypto Currency Dashboard & Finiancial Visualition",
-    github: "https://github.com/",
-    demo: "https://google.com/",
+    title: " Netflix-Clone",
+    github: "https://github.com/mishra5485/Netflix-Clone",
+    demo: "https://netflix-clone-a578b.web.app/",
   },
   {
     id: 3,
     image: img3,
-    title: " Crypto Currency Dashboard & Finiancial Visualition",
-    github: "https://github.com/",
-    demo: "https://google.com/",
-  },
-  {
-    id: 4,
-    image: img4,
-    title: " Crypto Currency Dashboard & Finiancial Visualition",
-    github: "https://github.com/",
-    demo: "https://google.com/",
-  },
-  {
-    id: 5,
-    image: img5,
-    title: " Crypto Currency Dashboard & Finiancial Visualition",
-    github: "https://github.com/",
-    demo: "https://google.com/",
-  },
-  {
-    id: 6,
-    image: img6,
-    title: " Crypto Currency Dashboard & Finiancial Visualition",
-    github: "https://github.com/",
-    demo: "https://google.com/",
+    title: "Media Player",
+    github: "https://github.com/mishra5485/Youtube-Clone",
+    demo: "https://aesthetic-snickerdoodle-5d94a7.netlify.app/",
   },
 ];
 

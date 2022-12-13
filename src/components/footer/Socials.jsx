@@ -1,7 +1,11 @@
 import React from "react";
 
-const Socials = ({ link, icon }) => {
-  return <a href={link}>{icon}</a>;
+const Socials = ({ link, icon, target }) => {
+  return (
+    <a target={"_blank"} href={link}>
+      {icon}
+    </a>
+  );
 };
 
 export default Socials;

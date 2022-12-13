@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import Me from "../../assets/me-about.jpg";
+import Me from "../../assets/Profile pic.jpg";
 import Aboutcards from "./Aboutcards";
 
 function About() {
@@ -17,15 +17,16 @@ function About() {
         </div>
         <div className="about__content">
           <div className="about__cards">
-            <Aboutcards title="Experience" desc="3+years Experience" />
-            <Aboutcards title="Clients" desc="200+ Websites" />
-            <Aboutcards title="Projects" desc="80+ Completed" />
+            <Aboutcards title="Experience" desc="Fresher" />
+            <Aboutcards title="Bsc-It Graduated" desc="CGPA:8.90" />
+            <Aboutcards title="Projects" desc="4+ Completed" />
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-            ex magnam vitae! Sapiente est, voluptatum blanditiis, esse maxime
-            illo debitis nobis veritatis architecto consequuntur praesentium
-            doloremque suscipit delectus distinctio omnis!
+            Aspring Web Developer.Currently Focused on ReactJS.
+            <br />
+            Main goal MERN Stack
+            <br />
+            Curious to work in StartUps.Looking for oppourtinuties
           </p>
 
           <a href="#contact" className="btn btn-primary cta">

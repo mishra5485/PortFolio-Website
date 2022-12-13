@@ -11,7 +11,7 @@ const Frontendcontainer = ({ Heading }) => {
           <Experiencedetails topic="CSS" type="Intermediate" />
           <Experiencedetails topic="JavaScript" type="Intermediate" />
           <Experiencedetails topic="BootStrap" type="Intermediate" />
-          <Experiencedetails topic="Tailwind Css" type="Intermediate" />
+          <Experiencedetails topic="Mterial UI" type="Intermediate" />
           <Experiencedetails topic="ReactJs" type="Intermediate" />
         </div>
       </div>

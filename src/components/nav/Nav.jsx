@@ -6,7 +6,7 @@ import {
   AiOutlineBook,
   AiOutlineMessage,
 } from "react-icons/ai";
-import { RiServiceLine } from "react-icons/ri";
+// import { RiServiceLine } from "react-icons/ri";
 
 function Nav() {
   const [activeNav, setActiveNav] = useState("#");
@@ -33,13 +33,13 @@ function Nav() {
       >
         <AiOutlineBook />
       </a>
-      <a
+      {/* <a
         href="#services"
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#services" ? "active" : ""}
       >
         <RiServiceLine />
-      </a>
+      </a> */}
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
